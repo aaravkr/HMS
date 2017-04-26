@@ -83,7 +83,7 @@ End Sub
 
 Private Sub Command1_Click()
 cnt = cnt + 1
-If Text1.Text = "admin@MSIT" And Text2.Text = "MSIT1234" And cnt <= 4 Then
+If Text1.Text = "admin" And Text2.Text = "admin" And cnt <= 4 Then
     Form2.Show
     Me.Hide
 Else
